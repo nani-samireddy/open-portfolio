@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    overflow-x: hidden;
+  }
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  #root {
+    background: linear-gradient(180deg, #ffffff 50%, #aeabab 100%);
+    background-repeat: no-repeat;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+  }
+}
+
+@layer components {
+  .nav-element {
+    @apply transition-colors delay-75 ease-linear hover:bg-gray-200 py-1 px-2 rounded-xl text-gray-700;
+  }
+  .navblur {
+    background: rgba(217, 217, 217, 0.4);
+    backdrop-filter: blur(20px);
+  }
+  .navmobileblur {
+    background: rgba(255, 255, 255, 0.702);
+    backdrop-filter: blur(20px);
+  }
+
+  .smooth-trasnsition {
+    transition: all 0.9s ease-in-out;
+  }
+
+  .heading {
+    @apply text-3xl font-extrabold lg:text-5xl py-20;
+  }
+
+  .full-card {
+    border: 5px solid #000000;
+    border-radius: 30px;
+    padding: 20px;
+  }
+  .full-card:hover {
+    filter: drop-shadow(11px 11px 5px rgba(8, 3, 21, 0.51));
+  }
+  .tech-chip {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 65px;
+    filter: grayscale(0.5);
+  }
+}
