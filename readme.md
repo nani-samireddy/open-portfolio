@@ -3,7 +3,7 @@
 
 This is a developer portfolio template built using React.js and Tailwind CSS. You can use this template to create your own portfolio website by following the instructions below.
 
-# Contribute
+## Contribute
 feel free to fort this repo and make changes to it and create a pull request.
 
 ## Getting Started
