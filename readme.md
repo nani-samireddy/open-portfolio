@@ -57,10 +57,8 @@ This is a developer portfolio template built using React.js and Tailwind CSS. Yo
 
    - Once you are satisfied with your customization, you can deploy your portfolio to a hosting platform of your choice.
    - Refer to the deployment documentation of the platform you prefer for detailed instructions.
+  
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 ---
 
 ## Contribution Guide
@@ -81,6 +79,11 @@ This project is licensed under the [MIT License](LICENSE).
 
 Once your pull request is submitted, I can review and merge your changes. Make sure to respond to any feedback during the review process.
 
+---
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
 
 ---
 
