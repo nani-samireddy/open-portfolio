@@ -5,7 +5,7 @@ const Hero = () => {
     <div id="about">
       <MakeCenter>
         <h1 className="text-5xl md:text-6xl lg:text-7xl  leading-normal lg:leading-relaxed py-20">
-          I’m <span className="font-bold">{data.name}</span> - an enthusiastic{" "}
+          I’m <span className="font-bold">{data.name}</span> - an enthusiastic
           <span className="font-medium">designer & developer</span> based in
           India.
         </h1>
