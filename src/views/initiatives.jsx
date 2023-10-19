@@ -1,6 +1,5 @@
 import MakeCenter from "../components/make-center";
 import FullCard from "../components/cards/full-card";
-import { initiativesData } from "../data/initiatives";
 import { data } from "../data/data";
 const Initives = () => {
   return (
