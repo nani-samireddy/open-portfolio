@@ -1,6 +1,5 @@
 import FullCard from "../components/cards/full-card";
 import MakeCenter from "../components/make-center";
-import { projectData } from "../data/project-data";
 import { data } from "../data/data";
 const Work = () => {
   return (
