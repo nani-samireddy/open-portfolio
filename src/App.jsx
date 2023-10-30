@@ -13,7 +13,6 @@ function App() {
       <Work />
       <Initives />
       <Skills />
-
       <Contact />
     </div>
   );
