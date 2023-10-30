@@ -1,3 +1,4 @@
+// CDN and Images
 export const techData = [
   {
     name: "ReactJs",
@@ -21,7 +22,8 @@ export const techData = [
   },
   {
     name: "Javascript",
-    image: "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
   },
   {
     name: "Typescript",
@@ -29,19 +31,22 @@ export const techData = [
   },
   {
     name: "HTML",
-    image: "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg",
   },
   {
     name: "CSS",
-    image: "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg",
   },
   {
     name: "TailwindCSS",
-    image: "https://cdn.worldvectorlogo.com/logos/tailwindcss.svg"
+    image: "https://cdn.worldvectorlogo.com/logos/tailwindcss.svg",
   },
   {
     name: "Figma",
-    image: "https://s3-alpha.figma.com/hub/file/2815952264/7a5ebfb0-0508-48ab-be9a-31b36ba53f97-cover.png",
+    image:
+      "https://s3-alpha.figma.com/hub/file/2815952264/7a5ebfb0-0508-48ab-be9a-31b36ba53f97-cover.png",
   },
   {
     name: "Git",
@@ -93,10 +98,11 @@ export const techData = [
   },
   {
     name: "Vite",
-    image: "https://cdn.worldvectorlogo.com/logos/vitejs.svg"
+    image: "https://cdn.worldvectorlogo.com/logos/vitejs.svg",
   },
   {
     name: "Github Actions",
-    image: "https://github.githubassets.com/images/modules/site/features/actions-icon-actions.svg"
+    image:
+      "https://github.githubassets.com/images/modules/site/features/actions-icon-actions.svg",
   },
 ];
