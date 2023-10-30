@@ -1,4 +1,4 @@
-// CDN and Images
+// CDN & Images
 export const techData = [
   {
     name: "ReactJs",
