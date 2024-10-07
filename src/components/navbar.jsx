@@ -1,7 +1,16 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const Navbar = () => {
   const [showModal, setShowModal] = useState(false);
+
+  useEffect(() => {
+    if (showModal) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+  }, [showModal]);
+
   return (
     <div
       id="NavBar"
@@ -49,7 +58,7 @@ const Navbar = () => {
       )}
       {/* mobile modal */}
       {showModal && (
-        <div className=" z-50 flex flex-col justify-center  navmobileblur md:hidden  absolute h-100vh w-100vw top-0 left-0">
+        <div className=" z-50 flex flex-col justify-center  navmobileblur md:hidden  fixed h-100vh w-100vw top-0 left-0">
           <div className="w-full flex justify-end">
             <span
               onClick={() => setShowModal(false)}
